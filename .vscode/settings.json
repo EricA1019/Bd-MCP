@@ -1,0 +1,31 @@
+{
+    "godotTools.editorPath.godot4": "/home/eric/Desktop/Godot_v4.5-stable_linux.x86_64",
+    
+    // Terminal Configuration - Fix for terminal hang issue
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/bin/bash",
+            "args": []
+        }
+    },
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.enablePersistentSessions": false,
+    
+    // File Watcher Configuration - Reduce file system load
+    "files.watcherExclude": {
+        "**/.git/**": true,
+        "**/.godot/**": true,
+        "**/node_modules/**": true,
+        "**/test_results/**": true,
+        "**/addons/**/*.import": true
+    },
+    
+    "files.exclude": {
+        "**/*.rpyc": true,
+        "**/*.rpa": true,
+        "**/*.rpymc": true,
+        "**/cache/": true
+    }
+}
